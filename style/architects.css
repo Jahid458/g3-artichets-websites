@@ -52,6 +52,12 @@ main{
 main > section{
     margin-top: 130px;
 }
+
+
+.section-title{
+  font-size: 2.8rem;
+  font-weight: 700;
+}
 /* Header Styles */
 
 
@@ -82,6 +88,7 @@ main > section{
   max-width: 1440px;
   margin: 0 auto;
 }
+
 
 /* banner Syles */
 .banner-content{
@@ -117,10 +124,6 @@ main > section{
 
 }
 
-.feature-title{
-  font-size: 2.8rem;
-  font-weight: 700;
-}
 
 #quick-list{
    font-weight: 500;
@@ -131,17 +134,13 @@ main > section{
   .navbar,.nav-links, .teams{
         flex-direction: column;
   }
-  
 
   .team-img-conatiner{
     grid-template-columns: repeat(1,1fr);
   }
-
   .our-features{
     margin-left: 20px;
   }
-
-  
 }
 
 
